@@ -1,5 +1,7 @@
-import com.chess.impl.Chess;
-import com.chess.IChess;
+package src;
+
+import src.com.chess.impl.Chess;
+import src.com.chess.IChess;
 
 public class Solve {
     public static void main(String[] args) {

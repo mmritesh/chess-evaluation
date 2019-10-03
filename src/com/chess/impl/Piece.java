@@ -1,4 +1,4 @@
-package com.chess.impl;
+package src.com.chess.impl;
 
 public class Piece {
     private int[][] directions = {{0,1}, {0,-1}, {1,0}, {1, 1}, {1, -1}, {-1, 0}, {-1, 1}, {-1, -1}};

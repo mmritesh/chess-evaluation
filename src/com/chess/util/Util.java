@@ -1,4 +1,4 @@
-package com.chess.util;
+package src.com.chess.util;
 
 public class Util {
     public static String getCharForNumber(int i) {

@@ -1,7 +1,7 @@
-package com.chess.impl;
+package src.com.chess.impl;
 
-import com.chess.IChess;
-import com.chess.util.Util;
+import src.com.chess.IChess;
+import src.com.chess.util.Util;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,6 +12,8 @@ public class Chess implements IChess {
 
     public Chess(){
         pieces.put("King", new Piece(new int[]{1,1,1,1,1,1,1,1}, 1));
+//        pieces.put("Queen", new Piece(new int[]{1,1,1,1,1,1,1,1}, 8));
+//        pieces.put("Bishop", new Piece(new int[]{1,1,1,1,1,1,1,1}, 8));
     }
 
     @Override
